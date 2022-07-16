@@ -1,0 +1,123 @@
+/* Structure */
+.example-container {
+  position: relative;
+}
+
+.example-table-container {
+  position: relative;
+  min-height: 200px;
+  max-height: 650px;
+  overflow: auto;
+  margin-left: 400px;
+}
+
+table {
+  width: 70%!important;
+}
+
+
+
+
+.mat-column-title {
+  max-width: 150px;
+}
+
+.mat-column-platform {
+  max-width: 150px;
+}
+.mat-column-score{
+  max-width: 130px;
+}
+.mat-column-genre{
+  max-width: 130px;
+}
+.mat-column-editors_choice{
+  max-width: 75px;
+}
+.mat-header-cell {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+.mat-cell{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+table tr:nth-child(even){
+  background-color: #4C8BF5;
+  color: #fff;
+}
+.spacer {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+ 
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  min-width: 100px;
+  margin-left: 700px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.search {
+  border: 1px solid grey;
+  border-radius: 5px;
+  height: 25px;
+  width: 20%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.search-icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 14px;
+}
+
+.clear-icon {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+  width: 12px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.search:hover, .search:focus {
+  border: 1px solid #009688;
+  background-color: white;
+}
+header {
+  position: relative;
+  background-color: black;
+  height: 100%;
+  min-height: 55rem;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
