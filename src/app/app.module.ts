@@ -11,13 +11,19 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppService } from './app.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TableComponent } from './table/table.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import {MatFormFieldModule} from '@angular/material/form-field';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TableComponent
+    TableComponent,
+    DashboardComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
@@ -29,6 +35,8 @@ import { TableComponent } from './table/table.component';
     MatCardModule,
     MatPaginatorModule,
     MatToolbarModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
 
   ],
   providers: [AppService],
