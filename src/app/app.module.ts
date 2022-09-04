@@ -15,6 +15,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -23,7 +24,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     AppComponent,
     TableComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
